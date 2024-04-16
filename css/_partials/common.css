@@ -18,13 +18,16 @@ header{
 /* .about-row > div > .content {
     background-color: var(--col-color);
 } */
-.contact-row > div > .content {
+/* .contact-row > div > .content {
     background-color: var(--col-color);
-}
+} */
 #message {
-    background-color: var(--col-color);
+    /* background-color: var(--col-color); */
     height: 200px;
 }
 .my-border-radius {
     border-radius: 20px;
+}
+.copyright {
+    font-size: 10px;
 }
