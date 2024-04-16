@@ -25,5 +25,6 @@ header{
     background-color: var(--col-color);
     height: 200px;
 }
-
-
+.my-border-radius {
+    border-radius: 20px;
+}
