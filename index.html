@@ -9,6 +9,9 @@
     rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
     crossorigin="anonymous">
     <!--//bootstrap -->
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- //font awesome -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -16,9 +19,9 @@
     <header class="text-uppercase text-white py-4">
       <div class="container">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg fw-bold" data-bs-theme="dark">
           <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,11 +49,13 @@
       <section class="jumbo py-4">
           <div class="container">
             <div class="row justify-content-center">
-              <div class="col-8 text-center">
-                <div>image</div>
-                <h2>title</h2>
+              <div class="col-10 text-center">
+                <div class="conteiner">
+                  <img src="img/avatar.svg" alt="avatar" class="img-fluid py-5">
+                </div>
+                <h2 class="text-uppercase text-white fs-1">Start Bootstrap</h2>
                 <div>star</div>
-                <div>GRAPHIC DESIGN - WEB DESIGNER - ILLUSTRATOR</div>
+                <h4 class="text-white">GRAPHIC DESIGN - WEB DESIGNER - ILLUSTRATOR</h4>
               </div>
             </div>
           </div>
@@ -58,7 +63,7 @@
       <!-- portfolio -->
       <section class="portfolio py-4">
         <div class="container text-center">
-          <h2>title</h2>
+          <h3 class="text-uppercase py-4 fw-bold">Portfolio</h3>
           <div>star</div>
           <!--METODO CHE DA CLASSI AI FIGLI <div class="row g-3">
             <div class="col-12 col-lg-6 col-xl-4">1</div>
@@ -69,7 +74,7 @@
             <div class="col-12 col-lg-6 col-xl-4">6</div>
           </div>
           <hr> -->
-          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3 portfolio-row">
+          <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-5 portfolio-row">
             <div class="col">
               <div class="content my-border-radius overflow-hidden">
                 <img src="img/cabin.png" alt="cabin" class="img-fluid">
@@ -96,7 +101,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="content my-border-radius overflow-hidden">
+              <div class="content my-border-radius overflow-hidden mb-5">
                 <img src="img/submarine.png" alt="submarine" class="img-fluid">
               </div>
             </div>
@@ -110,21 +115,22 @@
       <!-- about  -->
       <section class="about py-4">
           <div class="container text-center">
-            <h2>title</h2>
+            <h3 class="text-uppercase py-4 fw-bold text-white">about</h3>
             <div>star</div>
-            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2 about-row g-3">
-                <div class="col">
-                  <div class="content">
-                    1
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-2 about-row g-3 justify-content-center">
+                <div class="col-8">
+                  <div class="content text-start text-white fw-bold">
+                    Freelancer is a free Bootstrap theme created by start Bootstrap. The download include the complete sourche file including HTML, CSS and Javascript as well as optional LESS stylesheets for easy customization.
                   </div>
                 </div>
-                <div class="col">
-                  <div class="content">
-                    2
+                <div class="col-8">
+                  <div class="content text-start text-white fw-bold">
+                    Whether yo're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your project. This template is a perfect starting project.
                   </div>
                 </div>
             </div>
-            <div>download</div>
+            <button type="button" class="btn btn-outline-light mt-4"><i class="fa-solid fa-download me-2"></i>Download</button>
+
           </div>
       </section>
       <!-- //about -->

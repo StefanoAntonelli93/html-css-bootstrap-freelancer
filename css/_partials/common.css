@@ -15,9 +15,9 @@ header{
 .portfolio-row > div > .content {
     background-color: var(--col-color);
 }
-.about-row > div > .content {
+/* .about-row > div > .content {
     background-color: var(--col-color);
-}
+} */
 .contact-row > div > .content {
     background-color: var(--col-color);
 }
