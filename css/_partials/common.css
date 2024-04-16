@@ -3,7 +3,7 @@
 header{
     background-color: var(--main-color);
 }
-.jumbo {
+.jumbo , .about {
     background-color: var(--secondary-color);
 }
 .footer-sm {
@@ -11,4 +11,7 @@ header{
 }
 .footer-xl {
     background-color: var(--main-color-light);
+}
+.portfolio-row > div > .content {
+    background-color: var(--col-color);
 }
