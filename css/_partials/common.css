@@ -28,6 +28,9 @@ header{
 .my-border-radius {
     border-radius: 20px;
 }
-.copyright {
+.footer_copyright {
     font-size: 10px;
+}
+.img-avatar {
+  width: 70%;
 }
