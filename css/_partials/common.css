@@ -1,0 +1,14 @@
+/* common */
+
+header{
+    background-color: var(--main-color);
+}
+.jumbo {
+    background-color: var(--secondary-color);
+}
+.footer-sm {
+    background-color: var(--main-color);
+}
+.footer-xl {
+    background-color: var(--main-color-light);
+}
