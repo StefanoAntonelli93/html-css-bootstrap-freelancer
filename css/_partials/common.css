@@ -15,3 +15,20 @@ header{
 .portfolio-row > div > .content {
     background-color: var(--col-color);
 }
+.about-row > div > .content {
+    background-color: var(--col-color);
+}
+.contact-row > div > .content {
+    background-color: var(--col-color);
+}
+#message {
+    background-color: var(--col-color);
+    height: 200px;
+}
+
+
+
+/* utilities */
+.text-left {
+    text-align: left;
+}
