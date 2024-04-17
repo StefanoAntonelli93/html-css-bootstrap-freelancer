@@ -1,0 +1,28 @@
+/* star */
+.star_separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.star_separator::before{
+    content: "";
+    background-color: currentColor;
+    height: 3px;
+    display: block;
+    width: 200px;
+    max-width: 100px;
+    margin-right: 15px;
+}
+.star_separator::after{
+    content: "";
+    background-color: currentColor;
+    height: 3px;
+    display: block;
+    width: 200px;
+    max-width: 100px;
+    margin-left: 15px;
+}
+
+
+
+
